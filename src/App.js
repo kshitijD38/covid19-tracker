@@ -140,7 +140,9 @@ function App() {
         <CardContent>
           <h3>Live Cases by Country</h3>
           <Table countries={tableData} />
-          <h3 style={{ marginTop: 15 }}>Worldwide new {casesType}</h3>
+          <h3 style={{ marginTop: 15, marginBottom: 10 }}>
+            Worldwide new {casesType}
+          </h3>
           <LineGraph casesType={casesType} />
         </CardContent>
       </Card>
